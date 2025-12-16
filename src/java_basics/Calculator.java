@@ -1,4 +1,4 @@
-package assignements.first_java;
+package java_basics;
 import java.util.Scanner;
 
 public class Calculator {
