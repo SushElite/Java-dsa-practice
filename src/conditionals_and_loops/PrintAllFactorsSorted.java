@@ -15,8 +15,9 @@ public class PrintAllFactorsSorted {
 
         number = Math.abs(number);
         ArrayList<Integer> factors = new ArrayList<Integer>();
+        int sqrtNumber = (int)Math.sqrt(number);
 
-        for(int i = 1; i <= Math.sqrt(number); i++){
+        for(int i = 1; i <= sqrtNumber; i++){
             if(number % i == 0){
                 System.out.print(i + " ");
                 if(number / i != i){
