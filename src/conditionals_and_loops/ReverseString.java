@@ -8,7 +8,7 @@ public class ReverseString {
         String str = input.nextLine();
         int length = str.length();
 
-        StringBuilder reverse = new StringBuilder();
+        StringBuilder reverse = new StringBuilder(length);
 
         for(int i = length - 1; i >= 0; i--){
             reverse.append(str.charAt(i));
