@@ -19,7 +19,7 @@ public class RunningSum {
         for(int i = 1; i < length; i++){
             nums[i] = nums[i] + nums[i-1];
         }
-        
+
         return nums;
     }
 }
